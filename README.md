@@ -18,7 +18,7 @@ Serveren starter på:
 
 http://localhost:3000
 
-🔐 Autentisering
+Autentisering
 
 API-et bruker JWT med access token og refresh token.
 
@@ -34,7 +34,7 @@ GET /v1/auth/refresh
 
 POST /v1/auth/logout
 
-🩺 Health check
+Health check
 GET /v1/health
 
 Respons:

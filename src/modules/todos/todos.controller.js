@@ -59,7 +59,7 @@ export function createTodo(req, res) {
   return res.status(201).json(todo);
 }
 
-// PUT /v1/todos  (id i body, idempotent-ish)
+// PUT /v1/todos  (id i body)
 export function putTodo(req, res) {
   const b = req.validated.body;
 
